@@ -1,0 +1,25 @@
+.booking {
+	background: url('../../img/pattern.png') center center repeat-x;
+	background-color: #4b73b5;
+	padding: 30px 13px;
+	margin-bottom: 30px;
+}
+
+.booking__desc {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+}
+
+.booking__desc a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.booking__desc span {
+	color: #fff;
+	font-weight: 700;
+}
