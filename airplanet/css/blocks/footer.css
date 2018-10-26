@@ -1,0 +1,31 @@
+.footer {
+	width: 100%;
+	height: 77px;
+	background-color: #4b73b5;
+	position: absolute;
+}
+
+.container__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright__text {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+}
+
+.copyright__link {
+	font-weight: 700;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.copyright__name {
+	font-weight: 700;
+	color: #fff;
+}

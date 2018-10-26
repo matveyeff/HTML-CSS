@@ -1,0 +1,92 @@
+@import url('../css/fonts.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/header.css');
+@import url('./blocks/banner.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/left-sidebar.css');
+@import url('./blocks/top-plane.css');
+@import url('./blocks/last-news.css');
+@import url('./blocks/socials.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/contacts.css');
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+input, textarea {
+	width: 100%;
+	border: none;
+	outline: none;
+}
+
+textarea {
+	resize: none;
+	height: 90px;
+}
+
+.wrapper {
+	position: relative;
+	min-width: 1200px;
+	min-height: 100%;
+	height: auto!important;
+	overflow: hidden;
+}
+
+.wrapper:after {
+	content: '';
+	height: 77px;
+	display: block;
+	padding-bottom: 77px,
+}
+
+.container {
+	display: flex;
+	width: 1160px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.section-title {
+	color: #221f1f;
+	font-size: 49px;
+	font-weight: 700;
+	line-height: 38px;
+	margin-bottom: 40px;
+}
+
+.main-content {
+	width: 865px;
+	margin-left: 20px;
+	padding: 25px 0 50px 0;
+}

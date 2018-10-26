@@ -1,0 +1,64 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagination__elem {
+	display: flex;
+	margin-left: 20px;
+}
+
+.pagination__pages {
+	display: flex;
+	margin:	0 10px;
+}
+
+.pagination__display {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #656464;
+	line-height: 21px;
+}
+
+.pagination__link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #221f1f;
+	line-height: 21px;
+	padding: 6px 10px;
+}
+
+.pagination__link:hover {
+	color: #4b73b5;
+	transition: .25s ease;
+}
+
+.pagination__item_active .pagination__link {
+	color: #fff;
+	background-color: #4b73b5;
+	border-radius: 4px;
+	cursor: default;
+}
+
+.pagination__prev-next {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagination__img-left {
+	width: 6px;
+	height: 10px;
+	background: url('../../img/spritesheet.png') -257px -10px;
+}
+
+.pagination__img-right {
+	width: 6px;
+	height: 10px;
+	background: url('../../img/spritesheet.png') -283px -10px;
+}

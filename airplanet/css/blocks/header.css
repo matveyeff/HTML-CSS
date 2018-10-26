@@ -1,0 +1,29 @@
+.header {
+	height: 77px;
+	background-color: #4b73b5;
+}
+
+.container__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contacts {
+	text-align: right;
+}
+
+.contacts__phone {
+	color: #fff;
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.contacts__worktime {
+	opacity: 0.7;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: underline;
+}

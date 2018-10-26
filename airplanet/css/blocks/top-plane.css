@@ -1,0 +1,61 @@
+.top-plane {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #e8e9ed;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+.top-plane__title {
+	color: #221f1f;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+.top-plane__feature {
+	color: #212121;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 51px;
+	text-transform: uppercase;
+	letter-spacing: 2.88px;
+}
+
+.top-plane__desc {
+	color: #221f1f;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+}
+
+.top-plane__list {
+	text-align: left;
+	padding-left: 25px;
+}
+
+.top-plane__item {
+	line-height: 35px;
+	font-size: 18px;
+	color: #221f1f;
+}
+
+.top-plane__item::before {
+	content: '•';
+	margin-right: 15px;
+}
+
+.top-plane__price{
+	font-size: 54px;
+	font-weight: 400;
+	color: #202020;
+	line-height: 100px;
+	letter-spacing: -1.07px;
+}
+
+.top-plane__price span {
+	font-size: 35px;
+}

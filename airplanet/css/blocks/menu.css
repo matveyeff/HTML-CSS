@@ -1,0 +1,44 @@
+.menu__list {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.menu__item_active .menu__link {
+	color: #221f1f;
+}
+
+.menu__link {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 700;
+	color: #4b73b5;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	margin-right: 95px;
+}
+
+.menu__link::before {
+	content: '';
+	display: flex;
+	margin-right: 18px;
+}
+
+.menu__link_main-icon::before {
+	width: 17px;
+	height: 18px;
+	background: url('../../img/spritesheet.png') -220px -10px;
+}
+
+.menu__link_feed-icon::before {
+	width: 20px;
+	height: 20px;
+	background: url('../../img/spritesheet.png') -76px -10px;	
+}
+
+.menu__link_team-icon::before {
+	width: 23px;
+	height: 20px;
+	background: url('../../img/spritesheet.png') -352px -10px;
+}
