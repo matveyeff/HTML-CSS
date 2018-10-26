@@ -1,0 +1,9 @@
+.banner {
+	background: #27273e;
+}
+
+.banner__img {
+	background: url(../../img/banner.jpg) no-repeat center;
+	background-size: contain;
+	min-height: 393px;
+}

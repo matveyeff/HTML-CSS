@@ -1,0 +1,20 @@
+.info {
+	display: block;
+	background: url("../../img/pattern.png") center center repeat-x;
+	background-color: #27273e;
+	width: 274px;
+	padding: 30px 8px;
+}
+
+.info__text {
+	font-family: 'Gotham Pro', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 30px;
+}
+
+.info__text_accent {
+	color: #ec1e79;
+	font-weight: 700;
+}

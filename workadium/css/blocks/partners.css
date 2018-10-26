@@ -1,0 +1,22 @@
+.partners {
+	padding: 25px;
+	border:	1px solid #e8e9ed;	
+}
+
+.partners__img {
+	opacity: .5;
+	transition: .25s ease;
+}
+
+.partners__img:hover {
+	opacity: 1;
+}
+
+.partners__item {
+	margin-bottom: 45px;
+}
+
+.partners__item:last-child {
+	margin-bottom: 0;
+}
+

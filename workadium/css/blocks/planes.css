@@ -1,0 +1,78 @@
+.planes {
+	margin-left: 20px;
+}
+
+.planes__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.planes__item {
+	width: 273px;
+	margin-bottom: 40px;
+	font-family: 'Gotham Pro', sans-serif;
+	color: #221f1f;
+	text-align: center;
+}
+
+.planes__pic {
+	background: #48dd8f;
+	height: 165px;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+	border-radius: 4px;
+}	
+
+.planes__img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.planes__overlay {
+	background-color: #27273e;
+	width: 100%;
+	height: 100%;
+	opacity: 0.85;
+}
+
+.planes__img-title {
+	font-weight: 700;
+	font-size: 24px;
+	color: #5dd1f8;
+	text-transform: uppercase;
+	white-space: pre-line;
+}
+
+.planes__title {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	white-space: pre-line;
+}
+
+.planes__desc {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+.planes__img-text {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	line-height: 34px;
+}
+
+.planes__vip-label {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #ec1e79;
+
+}

@@ -1,0 +1,134 @@
+.header {
+	height: 77px;
+	background-color: #27273e;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	min-width: 492px;
+}
+
+.menu__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu__item_active .menu__link {
+	color: #ec1e79;
+}
+
+.menu__link {
+	display: flex;
+	align-items: center;
+	font-family: 'Gotham Pro', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	transition: .25s ease;
+}
+
+.menu__link:hover {
+	color: #ec1e79;
+	transition: .25s ease;
+}
+
+.menu__link::before {
+	content: '';
+	display: flex;
+	margin-right: 19px;
+}
+
+.menu__link::after {
+	content: '';
+	display: flex;
+	margin-right: 19px;
+	position: absolute;	
+	opacity: 0;
+	transition: .25s ease;
+}
+
+.menu__link_main-icon:hover::before {
+	opacity: 0;
+}
+
+.menu__link_main-icon::before {
+	width: 17px;
+	height: 16px;
+	background: url(../../img/css_sprites.png) -10px -10px;
+}
+
+.menu__link_main-icon::after {
+	width: 17px;
+	height: 16px;
+	background: url(../../img/css_sprites.png) -47px -10px;
+	opacity: 0;
+}
+
+.menu__link_main-icon:hover::after {
+	opacity: 0;
+}
+
+.menu__item_active .menu__link_main-icon::before {
+	background: url(../../img/css_sprites.png) -47px -10px;
+	opacity: 1;
+	transition: .25s ease;
+}
+
+.menu__link_feed-icon::before {
+	width: 20px;
+	height: 18px;
+	background: url(../../img/css_sprites.png) -162px -10px;
+}
+
+.menu__link_feed-icon::after {
+	width: 20px;
+	height: 18px;
+	background: url(../../img/css_sprites.png) -202px -10px;
+}
+
+.menu__link_feed-icon:hover::after {
+	opacity: 1;
+}
+
+.menu__link_feed-icon:hover::before {
+	opacity: 0;
+	transition: .25s ease;
+}
+
+.menu__link_planes-icon::before {
+	width: 19px;
+	height: 16px;
+	background: url(../../img/css_sprites.png) -84px -10px;
+}
+
+.menu__link_planes-icon::after {
+	width: 19px;
+	height: 16px;
+	background: url(../../img/css_sprites.png) -123px -10px;
+}
+
+.menu__link_planes-icon:hover::after {
+	opacity: 1;
+}
+
+.menu__link_planes-icon:hover::before {
+	opacity: 0;
+	transition: .25s ease;
+}
+
+
+
+
+
+
+
+
+
