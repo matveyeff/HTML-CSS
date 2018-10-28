@@ -12,6 +12,8 @@
 @import url('./blocks/booking.css');
 @import url('./blocks/feeds.css');
 @import url('./blocks/form.css');
+@import url('./blocks/partners.css');
+@import url('./blocks/team.css');
 
 html {
 	position: relative;
