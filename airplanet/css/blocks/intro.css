@@ -1,0 +1,100 @@
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url('../../img/background_intro.jpg') center center / cover no-repeat;
+}
+
+.intro::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: .7;
+}
+
+.intro__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 1;
+}
+
+.intro__container--animation {
+	animation: jackInTheBox .7s;
+}
+
+.intro__logo {
+	margin-bottom: 30px;
+}
+
+.intro__button {
+	display: flex;
+	align-items: center;
+	padding: 17px 22px;
+	border: 1px solid #1c5bc3;
+	border-radius: 5px;
+	color: #1c5bc4;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	z-index: 1;
+}
+
+.intro__button::after {
+	content: '';
+	display: flex;
+	align-items: center;
+	width: 15px;
+	height: 14px;
+	background: url('../../img/button-pic_blue.png');
+	margin-left: 10px;
+}
+
+.intro__button--hover:hover {
+	color: #fff;
+	background: #1c5bc3;
+	transition: .15s ease;
+}
+
+.intro__button--hover:hover::after {
+	content: '';
+	display: flex;
+	align-items: center;
+	width: 15px;
+	height: 14px;
+	background: url('../../img/button-pic_white.png');
+	margin-left: 10px;
+	transition: .15s ease;
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
