@@ -130,13 +130,13 @@ textarea {
 }
 
 .menu__link_main-icon::before {
-	width: 19px;
+	width: 20px;
 	height: 14px;
 	background: url('../img/css_sprites.png') -10px -48px;
 }
 
 .menu__link_main-icon::after {
-	width: 19px;
+	width: 20px;
 	height: 14px;
 	background: url('../img/css_sprites.png') -49px -48px;
 	opacity: 0;
@@ -182,13 +182,13 @@ textarea {
 }
 
 .menu__link_service-icon::before {
-	width: 19px;
+	width: 20px;
 	height: 14px;
 	background: url('../img/css_sprites.png') -90px -10px;
 }
 
 .menu__link_service-icon::after {
-	width: 19px;
+	width: 20px;
 	height: 14px;
 	background: url('../img/css_sprites.png') -90px -44px;
 	opacity: 0;
