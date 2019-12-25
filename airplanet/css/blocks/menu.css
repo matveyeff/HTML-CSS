@@ -8,6 +8,18 @@
 	color: #221f1f;
 }
 
+.menu__item_active .menu__link_main-icon::before {
+	background: url('../../img/spritesheet.png') -183px -10px;
+}
+
+.menu__item_active .menu__link_feed-icon::before {
+	background: url('../../img/spritesheet.png') -36px -10px;
+}
+
+.menu__item_active .menu__link_team-icon::before {
+	background: url('../../img/spritesheet.png') -309px -10px;
+}
+
 .menu__link {
 	display: flex;
 	align-items: center;
@@ -34,7 +46,7 @@
 .menu__link_feed-icon::before {
 	width: 20px;
 	height: 20px;
-	background: url('../../img/spritesheet.png') -76px -10px;	
+	background: url('../../img/spritesheet.png') -76px -10px;
 }
 
 .menu__link_team-icon::before {
